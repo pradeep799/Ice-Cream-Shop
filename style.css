@@ -1,5 +1,15 @@
+body{
+    background: #f4f4f4;
+}
+a{
+    text-decoration: none;
+    color: white;
 
-
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
 
 .showcase{
     height: 93vh;
@@ -44,10 +54,7 @@
 .best-selling-text{
     text-align: center;
 }
-.products{
-    
-    border: 1px solid black;
-    
+.products{    
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(260px, 1fr));
     /* grid-gap: 15px; */
